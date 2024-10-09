@@ -1,0 +1,483 @@
+body{
+    overflow:hidden;
+    width: 100%;
+    margin: 0;
+}
+.container{
+ width:100%;
+ height: 1000px;
+ background-color: #f0f3ff;
+ margin-top: 0;
+ display: flex;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to left, #9933ff 0%, #00ffcc 100%);
+}
+.left-menu-box{
+    width: 5%;
+    height: 100%;
+    background-color: #f0f3ff;
+    position: fixed;
+    margin-top: 0%;
+    border-right-width: 2px;
+    border-right-style: ridge;
+    border-right-color: azure;
+    float: left;
+}
+.center-scroll-box{
+    position:relative;
+    left:5%;
+    height: 670px;
+    width: 1090px;
+    background-color:white ;
+    border-radius: 10px;
+    top: 10px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   overflow: scroll;  
+}
+.navbar{
+    list-style-type: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+     color:#53355abf;
+    margin-block-start: 40px;
+    font-weight: 500;
+
+}
+.navicon{
+   position: relative;
+   bottom: 5px;
+   left: 24px;
+   width: 28px;
+   height: 28px;
+   display: block;
+}
+.navicon:hover{
+    cursor: pointer;
+    background-color:#e8defd;
+}
+.ulnav{
+    height: 50px;
+    display: block;
+    padding-left: 0px;
+    width: 75px;
+    margin: 0px;
+    
+  
+}
+.left-scroll-box{
+    position: relative;
+    background-color:  #f0f3ff;
+    width: 20%;
+    height: 500px;
+    left: 77px;
+    display: block;
+    overflow: visible;
+}
+.logo-text{
+    width: 90px;
+    height: auto;
+    margin: 5px 15px 0px 14px;
+}
+.create-button{
+    width: 251px;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    border-radius: 5px;
+    background-color: #8b3dff;
+    color: white;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.create-button:hover{
+    cursor: pointer;
+    background-color: #5f0add;
+}
+.dropdown{
+    border:none;
+    position: relative;
+    width: 240px;
+    height: 35px;
+    margin: 10px 1px -1px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e8defd;
+    color: #6546ad;
+}
+.dropdown:hover{
+    cursor: pointer;
+    background-color: #dbcef7 ;
+}
+.scroll-box-nav{
+   display: block;
+   list-style: none;
+   padding:0px;
+   margin: 0px;
+   width: 230px;
+    height: 40px;
+    position: relative;
+    left: 24px;
+    top: 20px;
+}
+.scroll-box-list{
+    height: 35px;
+    width: 210px;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 23px;
+    border-radius: 5px;
+}
+.scroll-box-list:hover{
+    cursor: pointer;
+    background-color: #dce1f4 ;
+}
+
+.list-icon{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 5px;
+   left: -10px;
+}
+.center-head{
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+     display: flex;
+   position: static;
+    
+}
+.search-bar{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 200px;
+    top: 7px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: solid 1px;
+}
+.search-bar:hover{
+    cursor: text;
+}
+.settings-icon{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 31%;
+    top: 12px;
+    display: flex;
+}
+.settings-icon:hover{
+    cursor: pointer;
+    background-color: rgb(233, 227, 227);
+}
+.bell-icon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 33%;
+    top: 12px;
+    display: flex;
+}
+.bell-icon:hover{
+    cursor: pointer;
+    background-color:  rgb(233, 227, 227);
+}
+.profile-button{
+    width: 100px;
+    height: 35px;
+    margin-left: 37%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+.profile-button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 227, 227) ;
+}
+.profile-image{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    left: 86%;
+    top: 8px;
+}
+.profile-image:hover{
+    cursor: pointer;
+}
+.color-box{
+    width: 96%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background: linear-gradient(to left, #9933ff 0%, #00ffcc 100%);
+     
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+.center-box-menu{
+    width: 100%;
+    height: 120px;
+   
+}
+.menu-image{
+    width: 90%;
+    height: 110px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.menu-image:hover{
+  cursor: pointer;
+
+}
+h2{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.866);
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+   padding: 10px;
+   position: relative;
+
+   
+}
+ 
+.center-grid-1{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Neutral\ Minimalist\ Photo\ Collage\ Typography\ Instagram\ Post.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;
+}
+.center-grid-1:hover{
+    cursor: pointer;
+    background-color: #e8defd;
+}
+.center-grid-2{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Beige\ Neutral\ Interior\ Design\ Landing\ Page\ Desktop\ Prototype.png);
+   background-repeat: no-repeat;
+   background-size:  100%;
+   background-position: center;
+}
+.center-grid-2:hover{
+    cursor: pointer;
+    background-color:#bab8bd;
+}
+.center-grid-3{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Grey\ &\ Beige\ Aesthetic\ Vision\ Board\ Photo\ Collage.png);
+   background-repeat: no-repeat;
+   background-size:  100%;
+   background-position: center;
+}
+.center-grid-3:hover{
+    cursor: pointer;
+    background-color:#bab8bd;
+}
+.center-grid-4{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Beige\ &\ Grey\ Minimalist\ Aesthetic\ Simple\ Grid\ Photo\ Collage.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;
+   background-position: center;
+}
+.center-grid-4:hover{
+    cursor: pointer;
+    background-color:#bab8bd;
+}
+.center-grid-5{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/1_20231213_201027_0000.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-6{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Smoke\ Phone\ Wallpaper.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-7{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/WhatsApp\ Image\ 2024-10-03\ at\ 12.04.21_0d18446c.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-8{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/mysore\ image.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-9{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Beige\ Brown\ Minimalist\ Fall\ Autumn\ Photo\ Collage\ Facebook\ Cover.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;
+   background-position: center;
+ }
+ .center-grid-9:hover{
+    cursor: pointer;
+    background-color:#bab8bd;
+}
+ .center-grid-10{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Clean\ Grid\ Favorite\ Photo\ Gallery\ Collage\ Instagram\ Story.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-11{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/delhi\ image.heic);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}.center-grid-12{
+    width: 90%;
+    height: 225px;
+    margin: 10px 0px 10px 15px;
+    background-color: #e4dfeb;
+    border-radius: 10px;
+   background-image: url(images/Brown\ Aesthetic\ Photo\ Collage\ Autumn\ Phone\ Wallpaper.jpg);
+   background-repeat: no-repeat;
+   background-size:  100%;;
+}
+.text{
+    position: absolute;
+    top: 270px;
+    left: 35px;
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 10px;
+     
+}
+.text-2{
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 79px;
+    height: 10px;
+     
+}
+.text-3{
+    position: absolute;
+    top: 270px;
+    left: 53%;
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 79px;
+    height: 10px;
+     
+}
+.text-4{
+    position: absolute;
+    top: 270px;
+    left: 78%;
+    font-family: system-ui;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 79px;
+    height: 10px;
+     
+}
+.navicon-last{
+    position: relative;
+    bottom: 6px;
+    left: 24px;
+    width: 28px;
+    height: 28px;
+    display: block;
+ }
+ .navicon-last:hover{
+    cursor: pointer;
+    background-color:#e8defd;
+ }
+ .navbar-last{
+    list-style-type: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+     color:#53355abf;
+    margin-block-start: 40px;
+    font-weight: 500;
+    margin-top: 200px;
+
+}
